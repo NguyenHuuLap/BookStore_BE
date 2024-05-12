@@ -14,7 +14,8 @@ const cartItemModel = new mongoose.Schema({
         }
     ],
     // Tổng số tiền của giỏ hàng
-    totalPrice: { type: Number, required: true },
+    // itemsPrice: { type: Number, required: true },
+    // totalPrice: { type: Number, required: true },
 }, { timestamps: true });
 
 const CartItem = mongoose.model('CartItem', cartItemModel);
